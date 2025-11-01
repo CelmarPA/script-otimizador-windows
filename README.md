@@ -27,16 +27,16 @@ Um script em Batch (.bat) para otimizar o desempenho do Windows, limpar arquivos
 2. Clique com o botão direito → Executar como administrador
 
 ## Menu Options
-1. - Desativar SysMain
-2.- Desativar WinSAT
-3. - Ativar plano de energia Alto Desempenho
-4. - Limpar arquivos temporários
-5. - Otimizacao Completa
-6. - Teste de desempenho PC
-7. - Ativar/Desativar apps de segundo plano
-8. - Atualizar softwares via Winget
-9. - Executar script online (⚠️ atenção: este item é opcional e deve ser usado com responsabilidade)
-0. - Sair
+1. Desativar SysMain
+2. Desativar WinSAT
+3. Ativar plano de energia Alto Desempenho
+4. Limpar arquivos temporários
+5. Otimizacao Completa
+6. Teste de desempenho PC
+7. Ativar/Desativar apps de segundo plano
+8. Atualizar softwares via Winget
+9. Executar script online (⚠️ atenção: este item é opcional e deve ser usado com responsabilidade)
+0. Sair
 
 ## Notes
 - Recomendado para Windows 10/11
