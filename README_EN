@@ -1,0 +1,56 @@
+# 🛠️ System Optimizer (Windows)
+
+A Batch (.bat) script to optimize Windows performance, clean temporary files, manage background apps, configure power plan, test performance, and automatically update all installed software via Winget.
+
+## Features
+- Disables Windows services that may reduce performance (SysMain, WinSAT)
+- Automatically sets power plan to High Performance
+- Cleans user and system temporary files
+- Manages background apps (enable/disable)
+- Tests PC performance using WinSAT
+- Automatically updates all programs installed via Winget
+- Generates a detailed log of updates (update_log.txt)
+- Full optimization option that runs all functions together
+
+## How It Works
+- Batch (.bat) script running with administrative privileges
+- Uses cmd.exe and PowerShell for specific tasks:
+  - sc and taskkill for Windows services
+  - powercfg for configuring power plan
+  - reg add for enabling/disabling background apps
+  - winget for updating software
+- Silent function versions (_silent) allow full optimization without unnecessary prompts
+- Automatically generates a log file for updates
+
+## Getting Started
+1. Download the file otimizador.bat
+2. Right-click → Run as administrator
+
+## Menu Options
+1 - Disable SysMain
+2 - Disable WinSAT
+3 - Set power plan to High Performance
+4 - Clean temporary files
+5 - Full Optimization
+6 - PC Performance Test
+7 - Enable/Disable background apps
+8 - Update software via Winget
+9 - Run online script (optional use)
+0 - Exit
+
+## Notes
+- Recommended for Windows 10/11
+- Winget must be installed for the update option to work correctly
+- Update log file is saved in the same directory as the script (update_log.txt)
+- Running as administrator is recommended to avoid permission errors
+
+## License
+MIT License
+
+## Author
+Celmar Pereira de Andrade
+- GitHub: https://github.com/CelmarPA
+- LinkedIn: https://linkedin.com/in/celmar-pereira-de-andrade-039830181
+
+## Feedback
+Contributions, suggestions, and improvements are welcome!
