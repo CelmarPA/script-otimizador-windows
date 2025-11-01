@@ -109,6 +109,7 @@ call :deactivate_sysmain_silent
 call :deactivate_winsat_silent
 call :max_energy_silent
 call :clean_temps_silent
+call :deactivate_background_app
 echo Full optimization completed!
 pause 
 
