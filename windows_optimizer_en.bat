@@ -135,22 +135,19 @@ pause
 goto menu
 
 :background_apps
-:menu
 cls
 echo =============================================
 echo             Background Apps Management
 echo =============================================
 echo [1] - Disable Background Apps
 echo [2] - Enable Background Apps
-echo [3] - Return to Previous Menu
+echo [0] - Return to Previous Menu
 echo =============================================
 set /p option="Choose an option: "
 
 if "%option%"=="1" goto deactivate_background_app
 if "%option%"=="2" goto activate_background_app
-if "%option%"=="3" goto menu
-
-goto menu
+if "%option%"=="0" goto menu
 
 :deactivate_background_app
 echo Disabling Background Apps...

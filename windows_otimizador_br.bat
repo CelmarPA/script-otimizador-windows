@@ -147,22 +147,19 @@ pause
 goto menu
 
 :background_apps
-:menu
 cls
 echo =============================================
 echo             Aplicativos Segundo Plano
 echo =============================================
 echo [1] - Desativar Apps Segundo Plano
 echo [2] - Ativar Apps Segundo Plano
-echo [3] - Retornar ao Menu Anterior
+echo [0] - Retornar ao Menu Anterior
 echo =============================================
 set /p option="Escolha uma opcao: "
 
 if "%option%"=="1" goto deactivate_background_app
 if "%option%"=="2" goto activate_background_app
-if "%option%"=="3" goto menu
-
-goto menu
+if "%option%"=="0" goto menu
 
 :deactivate_background_app
 echo Deactivating Background Apps...
