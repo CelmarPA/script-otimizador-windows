@@ -23,7 +23,7 @@ Um script em Batch (.bat) para otimizar o desempenho do Windows, limpar arquivos
 - Geração de log automático das atualizações para auditoria
 
 ## Getting Started
-1. Baixe o arquivo otimizador.bat
+1. Baixe o arquivo windows_otimizador_br.bat
 2. Clique com o botão direito → Executar como administrador
 
 ## Menu Options
